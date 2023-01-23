@@ -1,0 +1,205 @@
+body {
+background-color: #F8ECD1;
+margin: auto;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #541690;
+  line-height: 1;
+  font-size: 4.375rem;
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  color: #9772FB;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h3 {
+  color: #541690;
+  font-weight: normal;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border: 5px dotted #9772FB;
+  border-bottom: none;
+  width: 35px;
+  height: 100px auto;
+  margin: 100px auto 100px auto;
+}
+
+span {
+  text-decoration: underline;
+}
+
+p {
+  color: #40514E;
+  font-size: 125%;
+  line-height: 2;
+}
+
+a {
+  color: #541690;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: white;
+}
+
+
+
+
+/******* CLASSES ********/
+
+.top-container {
+ background-color: #A760FF;
+ position: relative;
+ padding-top: 100px;
+}
+
+.psycho {
+  color: #541690;
+}
+
+.air-baloon1 {
+  width: 5%;
+  position: absolute;
+  left: 200px;
+}
+
+.air-baloon2 {
+  width: 5%;
+  position: absolute;
+  right: 200px;
+  top: 70px;
+}
+
+.baloon-purple {
+  width: 6%;
+  position: absolute;
+  left: 450px;
+  top: 20px;
+}
+
+.baloon-red {
+  width: 7%;
+  position: absolute;
+  right: 300px;
+  bottom: 200px;
+}
+
+.baloon-green {
+  width: 8%;
+  position: absolute;
+  right: 450px;
+  top: 20px;
+}
+
+.baloon-blue {
+  width: 5%;
+  position: absolute;
+  left: 300px;
+  bottom: 200px;
+}
+
+
+.middle-container {
+ background-color: #F8ECD1;
+}
+
+.Joker {
+  width: 13%;
+  padding-top: 50px;
+}
+
+.power-row {
+  width: 40%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.poison {
+  width: 25%;
+  float:left;
+  margin: 30px;
+}
+
+.no-pain {
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.fourth-wall {
+  width: 25%;
+  float:left;
+  margin: 30px;
+}
+
+.batman-laugh {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+ background-color: #B667F1;
+ padding: 50px 0 20px;
+}
+
+.touch {
+  margin-bottom: 40px;
+}
+
+.contact-me {
+  padding-bottom: 100px;
+}
+
+.challenge {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #8934d9;
+  background-image: -webkit-linear-gradient(top, #8934d9, #5d2cb8);
+  background-image: -moz-linear-gradient(top, #8934d9, #5d2cb8);
+  background-image: -ms-linear-gradient(top, #8934d9, #5d2cb8);
+  background-image: -o-linear-gradient(top, #8934d9, #5d2cb8);
+  background-image: linear-gradient(to bottom, #8934d9, #5d2cb8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9e3cfa;
+  background-image: -webkit-linear-gradient(top, #9e3cfa, #8634d9);
+  background-image: -moz-linear-gradient(top, #9e3cfa, #8634d9);
+  background-image: -ms-linear-gradient(top, #9e3cfa, #8634d9);
+  background-image: -o-linear-gradient(top, #9e3cfa, #8634d9);
+  background-image: linear-gradient(to bottom, #9e3cfa, #8634d9);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.80rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 0;
+}
